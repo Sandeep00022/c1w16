@@ -26,6 +26,7 @@ const handleCart=()=>{
   {count==0?(<>
   {/* add to cart button */}
   {/* count with - and  + button */}
+
   <button className="Cart" onClick={handleCart} >Add to Cart</button>
  
   </>):(
@@ -40,6 +41,7 @@ const handleCart=()=>{
 
   </>
   
+
 
 };
 
