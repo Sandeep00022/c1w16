@@ -13,6 +13,7 @@
   }
 }
 
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -35,4 +36,47 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+
+.Cart{
+  background-color: blue;
+
+  border: none;
+  width: 200px;
+  height: 30px;
+  border-radius: 5px;
+  color: white;
+  font-weight: 700;
+}
+.container{
+  display: grid;
+
+  grid-template-columns: repeat(4,1fr);
+  grid-gap: 10px;
+}
+
+.container>div{
+  border: 1px solid grey;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.container>div>div{
+  display: flex;
+  justify-content: space-between;
+}
+
+.container>div>div>h6{
+  text-decoration: line-through;
+}
+
+.plus{
+  width: 80px;
+  border: none;
+  border-radius: 10px;
+  
+  background-color: blue;
+  color: white;
+  font-weight: 700;
 }
